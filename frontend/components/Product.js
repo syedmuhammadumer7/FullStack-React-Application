@@ -2,7 +2,6 @@ import { ProductStyle } from '../styles/ProductStyle';
 import Link from 'next/link';
 
 export default function Product({ product }) {
-  console.log(product);
   const { description, price, title, image, slug } = product.attributes;
   return (
     <ProductStyle>

@@ -12,7 +12,6 @@ import { useState } from 'react';
 
 export default function ProductDetails() {
   const [quantity, setQuantity] = useState(1);
-
   const { query } = useRouter();
   const [result] = useQuery({
     query: GET_PRODUCT_QUERY,
